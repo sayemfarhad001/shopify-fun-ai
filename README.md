@@ -18,4 +18,7 @@ You may also see any lint errors in the console.
 the API key for this project is kept in a variable inside a .env file that has been git-ignored.
 for the purpose of viewing a copy of this project has been replicated in Codesandbox.
 
-To view project Click <a href="">here</a>
+To view project Click <a href="https://codesandbox.io/s/dazzling-tharp-4nsvjg?file=/src/App.js">here</a>
+
+
+Here is the link to <a href="https://beta.openai.com/account/api-keys">generate another API_KEY</a>
