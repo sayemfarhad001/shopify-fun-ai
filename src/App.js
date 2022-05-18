@@ -7,7 +7,7 @@ import Responses from "./components/Responses/Responses.js";
 import "./App.scss";
 
 let API_TOKEN = process.env.REACT_APP_API_KEY;
-// const API_TOKEN = "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";
+
 const DEFAULT_PROMPT = "Write poem about dinosaurs in snow.";
 
 // GET THE RESPONSE
