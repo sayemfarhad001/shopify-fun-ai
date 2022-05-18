@@ -1,0 +1,24 @@
+.App {
+    text-align: left;
+    height: 100%;
+    width: 50%;
+    margin: auto;
+}
+  
+@media only screen and (max-width: 600px) {
+	.App {
+		width: 100%;
+	}
+}
+  
+div {
+  	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	height: 100vh;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}

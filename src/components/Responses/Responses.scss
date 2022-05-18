@@ -1,0 +1,46 @@
+.responses {
+    padding: 0.25em;
+    font-size: 1rem;
+}
+  
+.response{
+
+    &__container{
+        background-color: aquamarine;
+        display: flex;
+        flex-direction: column;
+        text-overflow: ellipsis; 
+        padding: 1rem;
+        margin-bottom: 2rem;
+        overflow: hidden;
+        border-radius: 1rem;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.75);
+        &:hover{
+            color: aliceblue;
+            background-color: rgb(12, 77, 55);
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75);
+            transform: scaleX(0.98) scaleY(0.98);
+        }
+    }
+    &__prompt{
+        padding-left: 1rem;
+        padding-bottom: 0.75rem;
+    }
+    
+    &__response{
+        padding: 0.25rem;
+        padding-left: 1rem;
+    }
+
+}
+
+.response__label {
+    width: 20%;
+    height: 100%;
+    font-weight: 600;
+}
+
+.response__field {
+    width: 80%;
+    height: 100%;
+}
